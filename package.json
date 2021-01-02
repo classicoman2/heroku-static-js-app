@@ -1,0 +1,22 @@
+{
+  "name": "heroku-static-js-app",
+  "version": "1.0.0",
+  "description": "static web deployment with heroku",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "keywords": [
+    "javascript",
+    "heroku"
+  ],
+  "author": "tas",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
