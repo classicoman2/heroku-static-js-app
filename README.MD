@@ -3,6 +3,14 @@
 Empraré **Node.js** i **Express** per desplegar la web estàtica a Heroku, és més fàcil així.
 Aquest desplegament l'he fet a efectes de provar algunes coses sobre **rendiment de la web** (todo).
 
+## Com emprar
+
+En mode dev i local, 
+
+```js
+    npm run dev
+```
+
 ## Todo
 
  - [ ] :bug: Problema amb el **Runtime** --> cal carregar dependència en js

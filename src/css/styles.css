@@ -1,3 +1,14 @@
 h1 {
     color: blue;
 }
+
+#wrapper {
+    background-image: url('../assets/venice.jpg');
+    height: 1000px;
+    background-size: 1200px;
+    background-repeat: no-repeat;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
