@@ -5,6 +5,7 @@ Aquest desplegament l'he fet a efectes de provar algunes coses sobre **rendiment
 
 ## Todo
 
+ - [ ] :bug: Problema amb el **Runtime** --> cal carregar dependència en js
  - [ ] Insertar assets: imatges, videos, fonts
  - [ ] Provar rendiment amb els assets tractats amb diferents formats
  - [ ] Provar compressió en els assets (ho permet la capçalera http)
