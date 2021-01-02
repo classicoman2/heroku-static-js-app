@@ -10,7 +10,9 @@ Aquest desplegament l'he fet a efectes de provar algunes coses sobre **rendiment
  - [ ] Provar rendiment amb els assets tractats amb diferents formats
  - [ ] Provar compressió en els assets (ho permet la capçalera http)
 
-## Tutorial
+## El meu Tutorial
+
+:warning: Basat en [el tutorial basic de HEROKU](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 
 1.- Iniciar sessió en Heroku
 
