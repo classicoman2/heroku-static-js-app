@@ -13,6 +13,12 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 app.use(cors());
 
+// directori amb static web src
+// IMPORTANT --> si poso només el subdirectori /src, no me carregarà BOOTSTRAP !!
+app.use(express.static(__dirname));
+
+//Handle Single Page Application
+app.get(/.*/, (req, res) => res.sendFile(__dirname + "/src/index.html"));
 
 // Iniciam el servidor en el Port 8080
 const port = process.env.PORT || 8080;
@@ -23,7 +29,3 @@ app.listen(port, () => {
 
 // NOMÉS A HEROKU
 
-// directori amb static web src
-app.use(express.static(__dirname + "/src/"));
-//Handle Single Page Application
-app.get(/.*/, (req, res) => res.sendFile(__dirname + "/src/index.html"));
