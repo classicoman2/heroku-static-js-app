@@ -17,6 +17,7 @@ app.use(cors());
 // IMPORTANT --> si poso només el subdirectori /src, no me carregarà BOOTSTRAP !!
 app.use(express.static(__dirname));
 app.use(express.static(__dirname + "/src"));
+app.use(express.static(__dirname + "/src/js"));
 
 //Handle Single Page Application
 app.get(/.*/, (req, res) => res.sendFile(__dirname + "/src/index.html"));
