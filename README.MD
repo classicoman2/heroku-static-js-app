@@ -11,13 +11,6 @@ En mode dev i local,
     npm run dev
 ```
 
-## Todo
-
- - [ ] :bug: Problema amb el **Runtime** --> cal carregar dependència en js
- - [ ] Insertar assets: imatges, videos, fonts
- - [ ] Provar rendiment amb els assets tractats amb diferents formats
- - [ ] Provar compressió en els assets (ho permet la capçalera http)
-
 ## El meu Tutorial
 
 :warning: Basat en [el tutorial basic de HEROKU](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
@@ -51,3 +44,4 @@ En mode dev i local,
 ```js
     git push heroku main
 ```
+
