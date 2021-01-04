@@ -1,7 +1,16 @@
 # Desplegar web estàtica a HEROKU
 
-Empraré **Node.js** i **Express** per desplegar la web estàtica a Heroku, és més fàcil així.
-Aquest desplegament l'he fet a efectes de provar algunes coses sobre **rendiment de la web** (todo).
+Empraré **Node.js** i **Express** per desplegar la web estàtica a Heroku, és més fàcil així. Aquest desplegament l'he fet a efectes de provar algunes coses sobre **rendiment de la web** (todo).
+
+## Todo
+
+ - [ ] Ampliació: Insertar assets: imatges, videos, fonts
+ - [ ] Performance: Provar rendiment amb els assets tractats amb diferents formats
+ - [ ] Upgrade: Provar compressió en els assets (ho permet la capçalera http)
+ - [x] :bug: Error "Unexpected token <" en fitxer js arreglat amb `app.use(express.static(..)`
+
+
+
 
 ## Com emprar
 
